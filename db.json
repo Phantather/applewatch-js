@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Iphone 13 Pro",
+      "price": 1000,
+      "memory": 256,
+      "image": "https://login.kg/image/cache/catalog/new/Phones/Apple/IPhone%2013/Pro/4-500x500.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Iphone 13 ",
+      "price": 800,
+      "memory": 128,
+      "image": "https://login.kg/image/cache/catalog/new/Phones/Apple/IPhone%2013/mini/2-500x500.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Iphone 12 Pro",
+      "price": 700,
+      "memory": 256,
+      "image": "https://login.kg/image/cache/catalog/new/Phones/Apple/iPhone%2012%20Pro/1-500x500.jpg"
+    }
+  ]
+}

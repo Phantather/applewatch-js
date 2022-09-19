@@ -1,0 +1,257 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+}
+
+body {
+    background: #F4F4F4;
+    padding: 60px 0;
+}
+
+.container  {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.header__nav {
+    display: flex;
+}
+
+.header__title {
+    width: 20%;
+    padding: 16px 0;
+    background-color: #ffffff;
+    border-radius: 8px 0 0 8px;
+    text-align: center;
+}
+
+.header__list {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    column-gap: 54px;
+    padding: 22px 0;
+    background: #444444;
+    border-radius: 0 8px 8px 0;
+}
+
+.header__item {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.header__item_cart {
+    cursor: pointer;
+}
+
+
+.products {
+    padding: 16px 0;
+}
+
+
+.products__block {
+    background: #FFFFFF;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    border-radius: 8px;
+    padding: 50px 68px 72px 60px;
+}
+
+.products__check {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 38px;
+}
+
+.products__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0C1014;
+}
+
+.products__see {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #1890FF;
+    cursor: pointer;
+}
+
+.products__row {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+
+.products__card {
+    width: calc(25% - 60px);
+}
+
+.products__card-img {
+    width: 100%;
+}
+
+.products__card-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0C1014;
+    margin-top: 32px;
+}
+
+.products__card-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #515759;
+    margin: 4px 0 12px;
+}
+
+.products__card-btns {
+    display: flex;
+    column-gap: 10px;
+}
+
+.products__card-btn {
+    padding: 3px 19px;
+    background: #1890FF;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+
+.products__btns {
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+.products__list {
+    display: flex;
+    column-gap: 20px;
+}
+
+.products__item {
+    cursor: pointer;
+    transition: .5s;
+}
+
+.products__item:hover {
+    transition: .5s;
+    color: #1890FF;
+}
+
+.footer__nav {
+    padding: 30px 0 40px 67px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    border-radius: 8px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.footer__info {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0C1014;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #515759;
+    margin: 8px 0 16px;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.footer__tel {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 20px;
+    color: #515759;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #1890FF;
+}
+
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+    background-color: #00000080;
+}
+
+.form {
+    max-width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form__input {
+    height: 40px;
+    border: 2px solid #1890FF;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.form__close {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    cursor: pointer;
+    color: #1890FF;
+}
+

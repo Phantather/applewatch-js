@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Applewatch</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <nav class="header__nav">
+            <h1 class="header__title">
+                <svg width="118" height="26" viewBox="0 0 118 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_205)">
+                        <path d="M42.2482 19.6701H42.194L38.8785 6.4236H34.9799L31.6782 19.6701H31.6239L28.5538 6.4236H24.4507L29.6136 24.9687H33.4847L36.8954 12.2924H36.9634L40.3732 24.9687H44.2727L49.4219 6.4236H45.3191L42.2482 19.6701ZM91.2527 6.12433C86.3623 6.12433 83.4413 9.28997 83.4413 14.6015V16.8434C83.4413 22.2101 86.3489 25.2802 91.2401 25.2802C96.1447 25.2802 98.5895 22.2911 98.5895 18.9493V18.6099H94.9071C94.9071 20.525 93.9559 22.0198 91.3062 22.0198C88.6443 22.0198 87.3395 20.3752 87.3395 16.8434V14.6015C87.3395 11.1103 88.6573 9.3576 91.2794 9.3576C93.7384 9.3576 94.9067 10.988 94.9067 12.8221H98.5887V12.6318C98.5895 9.01824 95.8446 6.12433 91.2527 6.12433ZM55.6308 6.4236L49.6527 24.9683H53.4975L54.8399 20.2946H60.7063L62.0285 24.9683H66.1455L60.1811 6.4236H55.6308ZM55.6608 17.442L57.7772 10.0776H57.8181L59.9016 17.442H55.6608ZM114.104 6.4236V13.8681H106.524V6.4236H102.678V24.9687H106.524V17.0613H114.104V24.9687H117.963V6.4236H114.104ZM66.0782 9.62974H71.5943V24.9687H75.4257V9.62974H80.9548V6.4236H66.0782V9.62974Z" fill="#0C1014"/>
+                        <path d="M15.3424 6.11179C13.2592 5.95831 11.4928 7.27567 10.5071 7.27567C9.5072 7.27567 7.96508 6.145 6.32901 6.17496C4.18227 6.20817 2.20319 7.42348 1.09641 9.34789C-1.13416 13.2198 0.527021 18.9554 2.69927 22.0951C3.76191 23.632 5.02865 25.3608 6.69348 25.2976C8.29635 25.2348 8.90177 24.2601 10.8383 24.2601C12.7737 24.2601 13.32 25.2976 15.0144 25.2648C16.7383 25.2344 17.8313 23.7004 18.8859 22.155C20.1069 20.3744 20.6082 18.6504 20.6382 18.5569C20.5997 18.5435 17.2765 17.2662 17.2433 13.4381C17.2134 10.2384 19.8558 8.69873 19.9765 8.62462C18.476 6.41633 16.1584 6.17253 15.3424 6.11179ZM14.0566 4.03754C14.9411 2.97004 15.5368 1.47935 15.3728 0C14.0996 0.0494062 12.5599 0.84841 11.6471 1.9155C10.829 2.86232 10.1106 4.37731 10.3054 5.82912C11.7256 5.93846 13.1726 5.10747 14.0566 4.03754Z" fill="#0C1014"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_205">
+                            <rect width="118" height="25.2992" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+
+            </h1>
+            <ul class="header__list">
+                <li class="header__item">
+                    Design
+                </li>
+                <li class="header__item">
+                    Health
+                </li>
+                <li class="header__item">
+                    Workout
+                </li>
+                <li class="header__item">
+                    Activity
+                </li>
+                <li class="header__item">
+                    Connect
+                </li>
+                <li class="header__item header__item_cart">
+                    <svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.4167 5.5H13.5833C13.5833 2.93333 11.5667 0.916666 9 0.916666C6.43333 0.916666 4.41667 2.93333 4.41667 5.5H2.58333C1.575 5.5 0.75 6.325 0.75 7.33333V18.3333C0.75 19.3417 1.575 20.1667 2.58333 20.1667H15.4167C16.425 20.1667 17.25 19.3417 17.25 18.3333V7.33333C17.25 6.325 16.425 5.5 15.4167 5.5ZM9 2.75C10.5583 2.75 11.75 3.94167 11.75 5.5H6.25C6.25 3.94167 7.44167 2.75 9 2.75ZM15.4167 18.3333H2.58333V7.33333H15.4167V18.3333ZM9 11C7.44167 11 6.25 9.80833 6.25 8.25H4.41667C4.41667 10.8167 6.43333 12.8333 9 12.8333C11.5667 12.8333 13.5833 10.8167 13.5833 8.25H11.75C11.75 9.80833 10.5583 11 9 11Z" fill="#D6D1CA"/>
+                    </svg>
+                    <sup class="header__list-cart">2</sup>
+                </li>
+            </ul>
+
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="products">
+        <div class="container">
+            <div class="products__block">
+                <div class="products__check">
+                    <h2 class="products__title">
+                        Check also
+                    </h2>
+                    <ul class="products__list">
+                        <li class="products__item">
+                            Accessories
+                        </li>
+                        <li class="products__item">
+                            Chargers adapters
+                        </li>
+                        <li class="products__item">
+                            Iphone's
+                        </li>
+                        <li class="products__item">
+                            Watches
+                        </li>
+                    </ul>
+                    <p class="products__see">
+                        <span class="products__see-text">See All</span>
+                        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.7741 6.59406L1.61428 11.7537C1.28605 12.0821 0.753887 12.0821 0.425819 11.7537C0.097725 11.4256 0.097725 10.8935 0.425819 10.5654L4.99146 5.99991L0.425952 1.43457C0.0978577 1.10635 0.0978577 0.574263 0.425952 0.24617C0.754046 -0.0820565 1.28618 -0.0820565 1.61441 0.24617L6.77423 5.4059C6.93828 5.57002 7.02021 5.7849 7.02021 5.99989C7.02021 6.21498 6.93812 6.43002 6.7741 6.59406Z" fill="#1890FF"/>
+                        </svg>
+
+                    </p>
+                </div>
+                <div class="products__row">
+<!--                    <div class="products__card">-->
+<!--                        <img src="./src/images/card1.jpg" alt="" class="products__card-img">-->
+<!--                        <h3 class="products__card-title">-->
+<!--                            AirPods-->
+<!--                        </h3>-->
+<!--                        <p class="products__card-price">-->
+<!--                            $199.00-->
+<!--                        </p>-->
+<!--                        <div class="products__card-btns">-->
+<!--                            <button class="products__card-btn">-->
+<!--                                Buy-->
+<!--                            </button>-->
+<!--                            <button class="products__card-btn">-->
+<!--                                Change-->
+<!--                            </button>-->
+<!--                        </div>-->
+
+<!--                    </div>-->
+
+                </div>
+                <div class="products__btns">
+                    <button class="products__card-btn add-btn">
+                        Add product
+                    </button>
+                    <button class="products__card-btn delete-btn">
+                        Delete product
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="overlay">
+        <form class="form">
+            <div class="form__close">X</div>
+            <input required name="title" type="text" class="form__input" placeholder="Product name">
+            <input required name="price" type="number" class="form__input" placeholder="Product price">
+            <input required name="memory" type="number" class="form__input" placeholder="Product memory">
+            <input required name="image" type="text" class="form__input" placeholder="Product image">
+            <button class="products__card-btn" type="submit">Add</button>
+        </form>
+        <form class="form form-change">
+            <div class="form__close form-change__close">X</div>
+            <input required name="title" type="text" class="form__input" placeholder="Iphone 13">
+            <input required name="price" type="number" class="form__input" placeholder="800">
+            <input required name="memory" type="number" class="form__input" placeholder="128">
+            <input required name="image" type="text" class="form__input" placeholder="Product image">
+            <button class="products__card-btn" type="submit">Chane</button>
+        </form>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <nav class="footer__nav">
+            <div class="footer__info">
+                <h2 class="footer__title">
+                    Follow Us.
+                </h2>
+                <p class="footer__text">
+                    We are always looking for new <br>
+                    projects and collaborations. <br>
+                    Feel free to contact us.
+                </p>
+                <div class="footer__social">
+                    <a href="" class="footer__social-link">
+                        <svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.25 7.90625H7.9375V5.03125C7.9375 4.23775 8.5815 3.59375 9.375 3.59375H10.8125V0H7.9375C5.55556 0 3.625 1.93056 3.625 4.3125V7.90625H0.75V11.5H3.625V23H7.9375V11.5H10.8125L12.25 7.90625Z" fill="#1890FF"/>
+                        </svg>
+
+                    </a>
+                    <a href="" class="footer__social-link">
+                        <svg width="23" height="19" viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23 2.21231C22.1447 2.5875 21.2333 2.83619 20.2831 2.95694C21.2606 2.37331 22.0067 1.45619 22.3574 0.35075C21.4461 0.894125 20.4398 1.27794 19.3674 1.49213C18.5021 0.570688 17.2687 0 15.9232 0C13.3127 0 11.2111 2.11888 11.2111 4.71644C11.2111 5.09019 11.2427 5.44956 11.3203 5.79169C7.40025 5.6005 3.93156 3.72169 1.60137 0.859625C1.19456 1.56544 0.955938 2.37331 0.955938 3.243C0.955938 4.876 1.79688 6.32356 3.05037 7.16162C2.29281 7.14725 1.54962 6.92731 0.92 6.58087C0.92 6.59525 0.92 6.61394 0.92 6.63262C0.92 8.924 2.55444 10.8272 4.69775 11.2657C4.31394 11.3706 3.89562 11.4209 3.4615 11.4209C3.15963 11.4209 2.85487 11.4037 2.56881 11.3404C3.17975 13.2078 4.91338 14.5806 6.97475 14.6251C5.3705 15.8801 3.33356 16.6362 1.12844 16.6362C0.74175 16.6362 0.370875 16.6189 0 16.5715C2.08869 17.9184 4.56406 18.6875 7.2335 18.6875C15.9102 18.6875 20.654 11.5 20.654 5.26988C20.654 5.06144 20.6468 4.86019 20.6367 4.66038C21.5726 3.99625 22.3589 3.16681 23 2.21231Z" fill="#1890FF"/>
+                        </svg>
+
+
+                    </a>
+                    <a href="" class="footer__social-link">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.939819 6C0.939819 2.68629 3.62611 0 6.93982 0H15C18.3137 0 21 2.68629 21 6V14C21 17.3137 18.3137 20 15 20H6.93982C3.62611 20 0.939819 17.3137 0.939819 14V6ZM10.9699 5C8.20034 5 5.95486 7.23875 5.95486 10C5.95486 12.7613 8.20034 15 10.9699 15C13.7394 15 15.9849 12.7613 15.9849 10C15.9849 7.23875 13.7394 5 10.9699 5ZM10.9699 13.125C9.24221 13.125 7.8355 11.7225 7.8355 10C7.8355 8.27625 9.24221 6.875 10.9699 6.875C12.6976 6.875 14.1043 8.27625 14.1043 10C14.1043 11.7225 12.6976 13.125 10.9699 13.125ZM17.0294 4.62499C17.0294 4.99294 16.7302 5.29123 16.3612 5.29123C15.9921 5.29123 15.6929 4.99294 15.6929 4.62499C15.6929 4.25703 15.9921 3.95874 16.3612 3.95874C16.7302 3.95874 17.0294 4.25703 17.0294 4.62499Z" fill="#1890FF"/>
+                        </svg>
+
+
+                    </a>
+                </div>
+            </div>
+            <div class="footer__info">
+                <h2 class="footer__title">
+                    Contact Us.
+                </h2>
+                <p class="footer__text">
+                    One Apple Park Way <br>
+                    Cupertino, CA 95014
+                </p>
+                <a href="" class="footer__tel">
+                    (408) 996-1010
+                </a>
+                <a href="" class="footer__link">
+                    support@apple.com
+                </a>
+            </div>
+        </nav>
+    </div>
+</footer>
+
+
+<script src="./src/js/main.js"></script>
+</body>
+</html>
